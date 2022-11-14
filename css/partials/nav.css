@@ -1,0 +1,54 @@
+.navigation-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  position: absolute;
+  top: 0;
+  right: -120%;
+  height: 100vh;
+  width: 375px;
+  font-size: 36px;
+  font-weight: 800;
+  background-color: #f28e13;
+  color: #ffff;
+  z-index: 50;
+  transition: right 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+  text-align: center;
+}
+
+.info-content {
+  text-align: center;
+  font-size: 14;
+  margin-top: 1rem;
+}
+.info-content a {
+  text-decoration: underline;
+}
+
+.text-column {
+  margin-top: 2rem;
+}
+
+.social-img {
+  gap: 1rem;
+  padding-left: 32%;
+  padding-bottom: 2rem;
+}
+
+.burger {
+  width: 86px;
+}
+
+.logo-mario {
+  width: 157px;
+  height: 78.5px;
+}

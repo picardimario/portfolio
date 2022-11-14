@@ -1,0 +1,253 @@
+/* Small Reset */
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f2ea;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("fonts/Proxima Nova Regular");
+}
+
+h2 {
+  font-size: 76px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 800;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+  }
+}
+
+h3 {
+  font-size: 36px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 28px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 800;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+  }
+}
+
+p {
+  font-size: 24px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+  }
+}
+
+span {
+  font-size: 36px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  span {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+  }
+}
+
+.page {
+  padding: 1rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6rem;
+}
+
+.logo-mario {
+  width: 157px;
+  height: 78.5px;
+}
+
+.burger {
+  width: 86px;
+}
+
+.hero-text-2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12rem;
+}
+
+.container {
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.inhalt {
+  font-size: 24px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .inhalt {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 18px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+  }
+}
+
+.bild-container {
+  width: 600px;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.bild-container-1 {
+  width: 486px;
+  height: 519px;
+  justify-content: space-around;
+  padding-left: 3rem;
+}
+
+button {
+  width: 294px;
+  height: 45px;
+  margin-top: 2rem;
+  background: #f28e13;
+  color: #ffff;
+  border-radius: 20px;
+  border: none;
+  font-size: 24px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 294px;
+    height: 45px;
+    margin-top: 2rem;
+    background: #f28e13;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+  }
+}
+
+.footer {
+  background-color: black;
+  background: black;
+  color: white;
+}
+
+.footerinside {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .footerinside {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.copyright {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .copyright {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-img {
+  width: 262px;
+  height: 262px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

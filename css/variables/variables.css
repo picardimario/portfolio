@@ -1,0 +1,92 @@
+:root {
+  /* COLORS */
+  --bgc-page: rgb(244, 243, 235);
+  --ctab: rgb(243, 141, 18);
+
+  /* FONTE-SIZE / FONT-WEIGHT DSK*/
+
+  font-family: "Proxima Nova", sans-serif;
+
+
+  /* Desktop */
+
+  /* Hero Header */
+
+  --heroheader: 6rem;
+  --fwm-font-weight: 800;
+
+  /* H1 */
+
+  --ph: 4.75rem;
+  --fwm-font-weight: 800;
+
+  /* H1 span */
+
+  --sph: 2rem;
+  --fwm-font-weight: 800;
+
+  /* H2 */
+
+  --sh: 2rem;
+  --fwm-font-weight: 800;
+
+  /* Flowing text */
+
+  --ft: 1.25rem;
+
+
+  /* Mobile */
+
+  /* 768px */
+
+  /* H1 */
+
+  --phm: 4.063rem;
+
+  /* H1 span */
+
+
+ --ssp: 18x=1.125rem;
+
+
+
+
+
+
+
+
+
+
+
+ 
+  --sssh: 22px;
+  --ssh: 18px;
+
+
+  --spm: 36px;
+  --sps: 18px;
+  --fws-font-weight: 400;
+
+  --ftds: 14px;
+  --fwss-font-weight: 300;
+
+  /* FONTE-SIZE / FONT-WEIGHT MOBILE*/
+
+  /* H1 Resposiv*/
+
+  --mhm: 60px;
+  --mhm-s: 39px;
+  --shm: 22px;
+  --sshm: 16px;
+  --fwm-font-weight: 800;
+
+
+  --ssspm: 16px;
+  --sspm: 12px;
+  --fws-font-weight: 400;
+
+  --ftm: 12px;
+  --fts: 12px;
+  --ftss: 14px;
+  --fwss-font-weight: 300;
+}

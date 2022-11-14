@@ -1,0 +1,18 @@
+@import url("components/components.css");
+@import url("partials/partials.css");
+@import url("variables/variables.css");
+
+/**********
+GENERAL
+**********/
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.page {
+  padding: 1rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
